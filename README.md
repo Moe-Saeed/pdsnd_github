@@ -1,17 +1,19 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
-
 ### Date created
-Include the date you created this project and README file.
+10 May 2021
 
 ### Project Title
-Replace the Project Title
+Udacity-programming-for-Data-Science-using-Python-Nanodegree
 
 ### Description
-Describe what your project is about and what it does
+The projest project is about a good statistical analysis on bike share system for three specified cities New York, Washington, Chicago. In the project we have imposed various filters like month, city, weekday to ensure the best results. Hopefully we will manage to find out some very important details using this analysis. For applying all the filters the user is asked to enter the information., if the user wants he/she can also look at the data.
 
 ### Files used
-Include the files used
+Files used in the project are following:
+* chicago.csv
+* new_york_city.csv
+* washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+* Geeksforgeeks website for various facts
+* Documentation page of Pandas
+* Documentation page of numpy
