@@ -26,8 +26,8 @@ def get_filters():
             break
         else:
             print('Please Try again')
-        
-        
+
+
 
     # TO DO: get user input for month (all, january, february, ... , june)
     month = input('Provide a month name from all, jan, feb, ... , june \n>')
@@ -153,9 +153,9 @@ def user_stats(df):
 
     # TO DO: Display earliest, most recent, and most common year of birth
     print(f"Earliest year of birth is {df['Birth Year'].min()}")
-    
+
     print(f"Most recent year of birth is {df['Birth Year'].max()}")
-    
+
     print(f"Most common year of birth is {df['Birth Year'].mode()[0]}")
 
     print("\nThis took %s seconds." % (time.time() - start_time))
@@ -179,3 +179,4 @@ def main():
 
 if __name__ == "__main__":
 	main()
+# Udacity-programming-for-Data-Science-using-Python-Nanodegree
